@@ -113,7 +113,7 @@
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 6vw;
         }
 
         main hr{
@@ -171,6 +171,68 @@
             text-align: center;
             color: grey;
             padding: 12px 0;
+        }
+
+        @media screen  and (max-width:1400px){
+            .firstsection{
+                flex-direction: column-reverse;
+            }
+
+            .secondsection .vertical{
+                height: unset;
+            }
+
+           
+
+            .box{
+                flex-direction: column;
+            }
+
+            .vertical-title .vertical-desc{
+                left: 45px;
+            }
+
+            .secondsection .box{
+                width: 50vw;
+            }
+
+            nav{
+                flex-direction: column;
+            }
+
+            .leftsection{
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .rightsection{
+                width: 721px !important;
+                display: flex;
+                justify-content: center;
+            }
+
+            .rightsection img{
+                width: 45vw;
+                margin-top: 100px;
+            }
+
+            .secondsection{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 141vh;
+            }
+
+            .image-top{
+                top: 133px;
+            }
+
+            body{
+                min-width: fit-content;
+            }
         }
     </style>
 
